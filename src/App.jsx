@@ -5,7 +5,7 @@ import Layout from './components/Layout'
 
 function App() {
   return (
-    <Router>
+    <Router basename='/manual-tecnico'>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
